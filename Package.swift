@@ -24,6 +24,8 @@ let package = Package(
         .headerSearchPath("./render"),
         .headerSearchPath("./lib"),
         .headerSearchPath("./render/internal"),
+        // Prevent NSAssert from crashing the app in release builds
+        .define("NS_BLOCK_ASSERTIONS", to: "1", .when(configuration: .release)),
       ]
     ),
     .testTarget(
