@@ -10,7 +10,7 @@
 //
 
 #import "MTFontMathTable.h"
-#import <IosMath/MTFont.h>
+#import "MTFont.h"
 #import "MTFont+Internal.h"
 
 
