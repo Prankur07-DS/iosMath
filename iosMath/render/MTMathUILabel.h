@@ -14,7 +14,7 @@
 
 // Compatibility of iOS and Mac OS.
 #import "MTConfig.h"
-#import MTMathList.h
+#import "MTMathList.h"
 #import "MTFont.h"
 
 #import "MTMathListDisplay.h"
